@@ -12,6 +12,7 @@
 <body>
     <div class="header">
       <div class="logo">404 not found</div>
+      <button onclick="myFunction()" class="toggle-btn">Dark mode</button>
     </div>
         <div class="container">
         <div class="scrow-img"><img src="/Scarecrow.png" alt="image of scarecrow"></div>
@@ -22,5 +23,14 @@
         </div>
       </div>
     <div class="footer">Created by <a href="https://github.com/JeffBaguien"> Jefferson Baguien </a></div>
-</body>
+
+      <script>
+        function myFunction() {
+          var element = document.body;
+          element.classList.toggle("dark-mode");
+        }
+        
+
+      </script>
+  </body>
 </html>
